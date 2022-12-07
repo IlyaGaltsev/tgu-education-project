@@ -57,7 +57,10 @@ const Header = ({value, setValue, corzina, delCorzina, faivouriteMass, delFaivou
           </div>
           )})}
         </Modal>
-        <button onClick={() => setOpen(true)}>Корзина</button>
+        <button onClick={() => setOpen(true)}>
+          Корзина
+          <div className="circle">{ corzina.length }</div>
+        </button>
         <Modal
           title="Корзина"
           centered

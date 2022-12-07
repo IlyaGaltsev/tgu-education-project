@@ -19,7 +19,22 @@ header {
       }
     }
     button {
-      margin-left: 10px;  
+      margin-left: 10px; 
+      position: relative;
+      .circle {
+        background-color: rgb(44, 44, 255);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        font-size: 12px;
+        position: absolute;
+        bottom: -5px;
+        right: -5px;
+      } 
     }
   }
 }
